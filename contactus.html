@@ -42,7 +42,9 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col col-sm">
+                <div class="col col-sm align-self-center justify-content-center">
+                    <a role="button" class="btn btn-block btn-sm nav-link btn-warning" data-toggle="tooltip" data-html="true" title="Or Call us at<br><strong>+852 12345678</strong>" data-placement="bottom" href="./index.html#card">Reserve</a>
+
                 </div>
             </div>
         </div>
@@ -81,8 +83,8 @@
             </div>
             <div class="col-12 col-sm-11 offset-sm-1">
                 <div class="btn-group" role="group">
-                    <a rolr="button" class="btn btn-primary" href="tel:+85212345678"><i class="fa fa-phone"></i>Call</a>
-                    <a rolr="button" class="btn btn-info"><i class="fa fa-skype"></i>Skype</a>
+                    <a role="button" class="btn btn-primary" href="tel:+85212345678"><i class="fa fa-phone"></i>Call</a>
+                    <a role="button" class="btn btn-info"><i class="fa fa-skype"></i>Skype</a>
                     <a rolr="button" class="btn btn-success" href="mailto:confusion@food.net"><i class="fa fa-envelope-o"></i>Email</a>
                 </div>
             </div>
@@ -207,6 +209,13 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+
 </body>
 
 </html>
