@@ -70,3 +70,21 @@ body{
     position: absolute;
     bottom: 0px;
 }
+
+.modal-header{
+    background: $background-dark;
+    h4{
+        color: $background-pale;
+    }
+    .close{
+        background: floralwhite;
+    }
+}
+
+.modal-body{
+    background: $background-pale;
+}
+
+.modal-footer{
+    background: $background-light;
+}

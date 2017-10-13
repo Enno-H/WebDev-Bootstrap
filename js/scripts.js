@@ -17,3 +17,15 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();
 });
+
+$(document).ready(function(){
+    $("#loginButton").click(function(){
+        $('#loginModal').modal('toggle');
+    })
+})
+
+$(document).ready(function(){
+    $("#reserveButton").click(function(){
+        $('#reserveModal').modal('toggle');
+    })
+})
